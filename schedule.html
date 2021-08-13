@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="java.css"><link rel="stylesheet" href="style.css">
+    <title>Bhadrakalika  Phramacy abd Bhadrakali Dental</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Pharmacy and Dental</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="bg.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2> Schedule of </h2> 
+          <h3>Pharmacy and Dental</h3>
+          <p>
+              Days----Open at--Close at
+              <br>
+            Sunday: 7:15 A.M to 7:30 P.M
+            <br>
+            Monday: 7:15 A.M to 7:30 P.M
+            <br>
+            Tuesday: 7:15 A.M to 7:30 P.M
+            <br>
+            Wednesday: 7:15 A.M to 7:30 P.M
+            <br>
+            Thursday: 7:15 A.M to  7:30 P.M
+            <br>
+            Friday: 7:15 A.M to 7:30 P.M
+            <br>
+            Saturday: 7:15 A.M to 11:00 A.M</p>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/manoj.subedi.507"><img src="facebook.png"></a></li>
+          <li><a href="https://www.facebook.com/messages/t/100006337718286"><img src="massenger.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="pharamacy.html">Pharamacy</a></li>
+          <li><a href="dental.html">Dental</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        
+        </ul>
+      </div>
+
+<script>
+    const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+</script>
+
+</body>
+</html>
